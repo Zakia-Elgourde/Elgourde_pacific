@@ -1,11 +1,77 @@
-
-h1 {
-  font-family: 'Brush Script MT', cursive;
+/* Main container */
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background-image: url("images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
 }
 
-.special {
-  font-weight: bold;
-  color: #660099;
+/* Header */
+.header {
+  background-color: #333;
+  color: white;
+  padding: 1em;
+  text-align: center;
 }
 
-#git@github.com:Zakia-Elgourde/Zakia_Pacific.git
+.header h1 a {
+  color: white;
+  text-decoration: none;
+}
+
+.header h1 a:hover {
+  color: #ffcc00;
+}
+
+/* Navigation bar */
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: #eee;
+  padding: 1em;
+}
+
+.navbar a {
+  color: #333;
+  text-decoration: none;
+  padding: 0.5em 1em;
+}
+
+.navbar a:hover {
+  background-color: #ccc;
+}
+
+/* Main content area */
+.main-content {
+  flex-grow: 1;
+  padding: 2em;
+}
+
+.main-content img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1em;
+}
+
+section {
+  margin-bottom: 2em;
+}
+
+/* Activities section */
+.activities {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 1em;
+}
+
+/* Footer */
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}

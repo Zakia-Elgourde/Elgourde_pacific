@@ -1,73 +1,31 @@
-/* General Layout */
-body {
-  width: 80%;
-  margin: auto;
-  background-color: beige;
-  font-family: Arial, sans-serif;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="pacific.css">
+    <title>Pacific Trails Resort</title>
+</head>
+<body>
+<header>
+    <h1><a href="index.html">Pacific Trails Resort</a></h1>
+</header>
 
-.container {
-  width: 100%;
-}
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="yurts.html">Yurts</a></li>
+        <li><a href="activities.html">Activities</a></li>
+    </ul>
+</nav>
 
-/* Header */
-.header {
-  background-color: #f4d03f;
-  padding: 10px;
-  text-align: center;
-}
+<main>
+    <img src="images/fall.jpg" alt="Scenic View" class="hero">
+    <h2>Enjoy Nature in Luxury</h2>
+    <p>Welcome to Pacific Trails Resort...</p>
+</main>
 
-.header a {
-  text-decoration: none;
-  color: black;
-}
-
-.header a:hover {
-  color: darkblue;
-}
-
-/* Navigation */
-.nav-color: #008080;
-  float: left;
-  width: 200px;
-  height: 100%;
-}
-
-.nav ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-.nav li {
-  border-bottom: 1px solid #ffffff;
-}
-
-.nav a {
-  display: block;
-  color: white;
-  padding: 10px;
-  text-decoration: none;
-}
-
-.nav a:hover {
-  background-color: #006666;
-}
-
-/* Main Content */
-.main {
-  margin-left: 220px;
-  padding: 20px;
-  background-image: url("images/hero.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 300px;
-}
-
-/* Footer */
-.footer {
-  clear: both;
-  background-color: #f4d03f;
-  text-align: center;
-  padding: 10px;
-}
+<footer>
+    <p>&copy; 2025 Pacific Trails Resort</p>
+</footer>
+</body>
+</html>

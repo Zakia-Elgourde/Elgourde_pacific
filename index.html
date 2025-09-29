@@ -1,33 +1,77 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pacific Trails Resort</title>
-  <link rel="stylesheet" href="paciv class="container">
+/* BODY BACKGROUND */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('images/fall.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
 
-    <header class="header">
-      <h1>index.htmlPacific Trails Resort</a></h1>
-    </header>
+/* HEADER BACKGROUND */
+header {
+    background-image: url('images/mountains.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    text-align: center;
+}
 
-    <nav class="nav">
-      <ul>
-        <li><a href="index.html/li>
-        <li>yurts.htmlYurts</a></li>
-        <li><a href="activities.htmls</a></li>
-        <li>reservations.htmlReservations</a></li>
-      </ul>
-    </nav>
+/* H1 WRAPPED IN ANCHOR WITH HOVER */
+header h1 a {
+    text-decoration: none;
+    color: white;
+}
+header h1 a:hover {
+    color: yellow;
+}
 
-    <main class="main">
-      <!-- Hero image and page content go here -->
-    </main>
+/* NAVIGATION - DESCENDANT SELECTORS */
+nav ul, nav li, nav a {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+nav ul {
+    display: block;
+    width: 200px;
+}
+nav li {
+    background-color: #333;
+    margin-bottom: 5px;
+}
+nav a {
+    display: block;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #555;
+}
 
-    <footer class="footer">
-      <p>&copy; 2025 Pacific Trails Resort</p>
-    </footer>
+/* HERO IMAGES FULL WIDTH INSIDE MAIN */
+.hero {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 20px;
+}
 
-  </div>
+/* YURTS PAGE – SECTION FORMAT */
+.yurt-section {
+    margin: 20px;
+}
+.yurt-section h3 {
+    color: darkgreen;
+}
+.yurt-section p {
+    margin-bottom: 15px;
+}
 
-</body>
-</html>
+/* ACTIVITIES PAGE – REPLACE DATALIST */
+.activity {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-bottom: 10px;
+}

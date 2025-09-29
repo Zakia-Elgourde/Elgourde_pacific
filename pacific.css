@@ -1,31 +1,77 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="pacific.css">
-    <title>Pacific Trails Resort</title>
-</head>
-<body>
-<header>
-    <h1><a href="index.html">Pacific Trails Resort</a></h1>
-</header>
+/* BODY BACKGROUND */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('images/fall.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
 
-<nav>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="yurts.html">Yurts</a></li>
-        <li><a href="activities.html">Activities</a></li>
-    </ul>
-</nav>
+/* HEADER BACKGROUND */
+header {
+    background-image: url('images/mountains.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    text-align: center;
+}
 
-<main>
-    <img src="images/fall.jpg" alt="Scenic View" class="hero">
-    <h2>Enjoy Nature in Luxury</h2>
-    <p>Welcome to Pacific Trails Resort...</p>
-</main>
+/* H1 WRAPPED IN ANCHOR WITH HOVER */
+header h1 a {
+    text-decoration: none;
+    color: white;
+}
+header h1 a:hover {
+    color: yellow;
+}
 
-<footer>
-    <p>&copy; 2025 Pacific Trails Resort</p>
-</footer>
-</body>
-</html>
+/* NAVIGATION - DESCENDANT SELECTORS */
+nav ul, nav li, nav a {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+nav ul {
+    display: block;
+    width: 200px;
+}
+nav li {
+    background-color: #333;
+    margin-bottom: 5px;
+}
+nav a {
+    display: block;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #555;
+}
+
+/* HERO IMAGES FULL WIDTH INSIDE MAIN */
+.hero {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 20px;
+}
+
+/* YURTS PAGE – SECTION FORMAT */
+.yurt-section {
+    margin: 20px;
+}
+.yurt-section h3 {
+    color: darkgreen;
+}
+.yurt-section p {
+    margin-bottom: 15px;
+}
+
+/* ACTIVITIES PAGE – REPLACE DATALIST */
+.activity {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-bottom: 10px;
+}

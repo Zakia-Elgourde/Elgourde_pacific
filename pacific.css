@@ -27,7 +27,8 @@ body {
 }
 
 /* Navigation */
-.nav-color: #008080;
+.nav {
+  background-color: #008080;
   float: left;
   width: 200px;
   height: 100%;
@@ -58,10 +59,11 @@ body {
 .main {
   margin-left: 220px;
   padding: 20px;
-  background-image: url("images/hero.jpg");
+  background-image: url("images/hero.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 300px;
+  color: white;
 }
 
 /* Footer */

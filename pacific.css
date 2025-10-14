@@ -1,4 +1,4 @@
-/* BODY BACKGROUND */
+
 body {
     font-family: Arial, sans-serif;
     background-image: url('images/fall.jpg');
@@ -7,7 +7,7 @@ body {
     margin: 0;
 }
 
-/* HEADER BACKGROUND */
+
 header {
     background-image: url('images/mountains.jpg');
     background-repeat: no-repeat;
@@ -16,7 +16,7 @@ header {
     text-align: center;
 }
 
-/* H1 WRAPPED IN ANCHOR WITH HOVER */
+
 header h1 a {
     text-decoration: none;
     color: white;
@@ -25,7 +25,6 @@ header h1 a:hover {
     color: yellow;
 }
 
-/* NAVIGATION - DESCENDANT SELECTORS */
 nav ul, nav li, nav a {
     margin: 0;
     padding: 0;
@@ -49,7 +48,7 @@ nav a:hover {
     background-color: #555;
 }
 
-/* HERO IMAGES FULL WIDTH INSIDE MAIN */
+
 .hero {
     width: 100%;
     height: 300px;
@@ -58,7 +57,7 @@ nav a:hover {
     margin-bottom: 20px;
 }
 
-/* YURTS PAGE – SECTION FORMAT */
+
 .yurt-section {
     margin: 20px;
 }
@@ -69,7 +68,7 @@ nav a:hover {
     margin-bottom: 15px;
 }
 
-/* ACTIVITIES PAGE – REPLACE DATALIST */
+
 .activity {
     background-color: #f2f2f2;
     padding: 10px;

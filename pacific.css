@@ -1,4 +1,3 @@
-
 body {
     font-family: Arial, sans-serif;
     background-image: url('images/fall.jpg');
@@ -6,7 +5,6 @@ body {
     background-size: cover;
     margin: 0;
 }
-
 
 header {
     background-image: url('images/mountains.jpg');
@@ -16,38 +14,37 @@ header {
     text-align: center;
 }
 
-
 header h1 a {
     text-decoration: none;
     color: white;
 }
+
 header h1 a:hover {
     color: yellow;
 }
 
-nav ul, nav li, nav a {
+nav ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
-}
-nav ul {
-    display: block;
     width: 200px;
 }
+
 nav li {
     background-color: #333;
     margin-bottom: 5px;
 }
+
 nav a {
     display: block;
     color: white;
     padding: 10px;
     text-decoration: none;
 }
+
 nav a:hover {
     background-color: #555;
 }
-
 
 .hero {
     width: 100%;
@@ -57,17 +54,17 @@ nav a:hover {
     margin-bottom: 20px;
 }
 
-
 .yurt-section {
     margin: 20px;
 }
+
 .yurt-section h3 {
     color: darkgreen;
 }
+
 .yurt-section p {
     margin-bottom: 15px;
 }
-
 
 .activity {
     background-color: #f2f2f2;

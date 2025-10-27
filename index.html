@@ -1,219 +1,31 @@
-/* Global box-sizing */
-* {
-  box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="pacific.css">
+    <title>Pacific Trails Resort</title>
+</head>
+<body>
+<header>
+    <h1><a href="index.html">Pacific Trails Resort</a></h1>
+</header>
 
-/* Body styling */
-body {
-  background-color: #90C7E3;
-  color: #666666;
-  font-family: Verdana, Arial, sans-serif;
-  margin: 0;
-}
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="yurts.html">Yurts</a></li>
+        <li><a href="activities.html">Activities</a></li>
+    </ul>
+</nav>
 
-/* Wrapper container */
-#wrapper {
-  background-color: #FFFFFF;
-}
+<main>
+    <img src="images/fall.jpg" alt="Scenic View" class="hero">
+    <h2>Enjoy Nature in Luxury</h2>
+    <p>Welcome to Pacific Trails Resort...</p>
+</main>
 
-/* Header styling */
-header {
-  background-color: #002171;
-  color: #ffffff;
-  font-family: Georgia, serif;
-  padding: 1em;
-}
-
-header a {
-  text-decoration: none;
-}
-
-header a:link,
-header a:visited {
-  color: #FFFFFF;
-}
-
-header a:hover {
-  color: #90C7E3;
-}
-
-/* Main heading */
-h1 {
-  font-size: 1.5em;
-  text-align: center;
-  font-family: 'Brush Script MT', cursive;
-}
-
-/* Navigation styling */
-nav {
-  font-size: 1.2em;
-  background-color: #FFF;
-  text-align: center;
-}
-
-nav a {
-  text-decoration: none;
-}
-
-nav a:link {
-  color: #5C7FA3;
-}
-
-nav a:visited {
-  color: #344873;
-}
-
-nav a:hover {
-  color: #A52A2A;
-}
-
-nav ul {
-  display: flex;
-  flex-direction: column;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-nav li {
-  border-bottom: 1px solid #344873;
-  padding: 0.5em 1em;
-  width: 100%;
-}
-
-/* Headings */
-h2 {
-  color: #1976D2;
-  font-family: Georgia, serif;
-}
-
-h3 {
-  font-family: Georgia, serif;
-}
-
-/* Main content */
-main {
-  padding: 0 1em;
-  display: block;
-}
-
-/* Description term styling */
-dt {
-  color: #002171;
-  font-weight: bold;
-}
-
-/* Custom classes */
-.resort {
-  color: #1976D2;
-  font-size: 1.2em;
-}
-
-.special {
-  font-weight: bold;
-  color: #660099;
-}
-
-/* Footer styling */
-footer {
-  font-size: 0.7em;
-  font-style: italic;
-  text-align: center;
-  padding: 1em;
-  background-color: #FFF;
-}
-
-/* Hero images */
-#homehero {
-  height: 300px;
-  background-image: url(images/coast.jpg);
-  background-repeat: no-repeat;
-  background-size: 200% 100%;
-}
-
-#yurthero {
-  height: 300px;
-  background-image: url(images/yurt.jpg);
-  background-repeat: no-repeat;
-  background-size: 200% 100%;
-}
-
-#trailhero {
-  height: 300px;
-  background-image: url(images/trail.jpg);
-  background-repeat: no-repeat;
-  background-size: 200% 100%;
-}
-
-/* Contact display */
-#mobile {
-  display: inline;
-}
-
-#desktop {
-  display: none;
-}
-
-/* Section padding */
-section {
-  padding-left: 0.5em;
-  padding-right: 0.5em;
-}
-
-/* Tablet view adjustments */
-@media (min-width: 600px) {
-  h1 {
-    font-size: 2em;
-    letter-spacing: 0.25em;
-  }
-
-  nav ul {
-    flex-flow: row nowrap;
-    justify-content: space-around;
-    padding-right: 2em;
-  }
-
-  nav li {
-    border-bottom: none;
-    width: 12em;
-  }
-
-  section {
-    padding-left: 2em;
-    padding-right: 2em;
-  }
-
-  #flow {
-    display: flex;
-    flex-direction: row;
-  }
-
-  #mobile {
-    display: none;
-  }
-
-  #desktop {
-    display: inline;
-  }
-
-  #homehero,
-  #yurthero,
-  #trailhero {
-    background-size: 100% 100%;
-  }
-}
-
-/* Desktop view adjustments */
-@media (min-width: 1024px) {
-  body {
-    background-image: linear-gradient(to bottom, #FFFFFF 20%, #90C7E3 60%, #FFFFFF 100%);
-  }
-
-  nav ul {
-    padding-left: 10%;
-    padding-right: 10%;
-  }
-
-  #wrapper {
-    margin: auto;
-    width
+<footer>
+    <p>&copy; 2025 Pacific Trails Resort</p>
+</footer>
+</body>
+</html>
